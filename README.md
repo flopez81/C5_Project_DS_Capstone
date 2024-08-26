@@ -34,13 +34,13 @@ The project is split into three notebooks:
 This notebook implements the data exploratory analysis where several cleaning operations have been conducted prior to the 
 users segmentation. These operations include in the following order:
 
-1. Turning the unknown values into missing values
-2. Dropping the columns with highest amount of missing values
-3. Dropping the remaining rows with highest amount of missing values
-4. Re-encoding the mixed-type features into new ordinal/categorical features
-5. Reducing the cardinality of the categorical features having categories with low density
-6. Setting up the binary features by turning them into 0-1 values
-7. Filling out the remaining missing values with the statistic operator according to the feature type
+- Turning the unknown values into missing values
+- Dropping the columns with highest amount of missing values
+- Dropping the remaining rows with highest amount of missing values
+- Re-encoding the mixed-type features into new ordinal/categorical features
+- Reducing the cardinality of the categorical features having categories with low density
+- Setting up the binary features by turning them into 0-1 values
+- Filling out the remaining missing values with the statistic operator according to the feature type
 
 The cleaning operations were applied the following four datasets:
 - Udacity_AZDIAS_052018.csv. This file holds the demographics data for all the population of germany
